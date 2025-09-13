@@ -1,6 +1,6 @@
 {
   "name": "@goab/roastr",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A hilarious console debugging roaster that turns every console.log(), error, and warning into Rick & Morty roasts for developers",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

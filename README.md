@@ -32,7 +32,7 @@ npm install @goab/roastr
 import { initRoastr } from "@goab/roastr";
 
 // Choose your tormentor... I mean, debugging companion
-initRoastr("rick");
+initRoastr("Rick");
 
 console.log("Testing my API");
 // Rick: "Oh great, another genius using console.log(). Let me guess, you also think JavaScript is a 'real' programming language:"
@@ -41,7 +41,7 @@ console.log("Testing my API");
 **Morty:** "Oh! Oh! And if you want me to help instead of Rick being all... Rick-y, you can do this:"
 
 ```javascript
-initRoastr("morty");
+initRoastr("Morty");
 
 console.error("Database connection failed");
 // Morty: "Oh no, an error! This is bad, right? This seems really bad! Here's what went wrong:"
@@ -50,7 +50,7 @@ console.error("Database connection failed");
 **Rick:** "Or if you're boring and have no sense of humor whatsoever:"
 
 ```javascript
-initRoastr("default");
+initRoastr("Default");
 // Gets you vanilla, personality-free messages. Ugh.
 ```
 
@@ -96,11 +96,11 @@ initRoastr("default");
 
 ```javascript
 // Start with my superior intellect
-initRoastr("rick");
+initRoastr("Rick");
 console.log("Rick mode activated");
 
 // Switch to Morty if you can't handle the truth
-initRoastr("morty");
+initRoastr("Morty");
 console.log("Now in anxiety mode");
 ```
 
@@ -117,7 +117,7 @@ restoreConsole(); // Back to soul-crushing normalcy
 **Rick:** "I even intercept your pathetic fetch failures:"
 
 ```javascript
-initRoastr("rick");
+initRoastr("Rick");
 
 fetch("/api/your-broken-endpoint").catch((error) => {
   // I'll roast your 404 errors automatically
@@ -145,7 +145,7 @@ fetch("/api/your-broken-endpoint").catch((error) => {
 
 ```javascript
 if (process.env.NODE_ENV === "development") {
-  initRoastr("rick"); // For development masochism
+  initRoastr("Rick"); // For development masochism
 }
 ```
 
