@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES2019",                   // modern enough, still widely compatible
-    "module": "CommonJS",                 // Node + npm friendly (you can also use "ESNext" if you want ESM only)
+    "module": "ESNEXT",                 // Node + npm friendly (you can also use "ESNext" if you want ESM only)
     "declaration": true,                  // generate .d.ts type definitions
     "outDir": "dist",                     // compiled output folder
     "rootDir": "src",                     // your source code lives here
