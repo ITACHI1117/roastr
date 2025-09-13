@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",                   // modern enough, still widely compatible
+    "module": "CommonJS",                 // Node + npm friendly (you can also use "ESNext" if you want ESM only)
+    "declaration": true,                  // generate .d.ts type definitions
+    "outDir": "dist",                     // compiled output folder
+    "rootDir": "src",                     // your source code lives here
+    "strict": true,                       // strict type checking (recommended)
+    "esModuleInterop": true,              // makes import/export easier
+    "skipLibCheck": true,                 // faster builds, don’t re-check libs
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src"],                     // only compile src/
+  "exclude": ["node_modules", "dist", "tests"]
+}

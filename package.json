@@ -1,0 +1,29 @@
+{
+  "name": "@goab/roastr",
+  "version": "1.0.0",
+  "description": "A fun error roasting library for developers with Rick & Morty characters",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "error",
+    "debug",
+    "roast",
+    "rick-morty",
+    "console",
+    "fetch",
+    "logging"
+  ],
+  "author": "Ajogu Joseph",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
