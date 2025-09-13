@@ -1,6 +1,6 @@
 # 🧪 Roastr
 
-![Alt text](assets/banner.png)
+![Banner](https://raw.githubusercontent.com/ITACHI1117/roastr/main/assets/banner.jpg)
 
 _"Listen up, you code-writing mouth-breathers!"_ - Rick
 
